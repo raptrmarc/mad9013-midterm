@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*//-----------------------------------------------------------*/
+@media all and (max-width: 60em) and (min-width: 35em){
+    
+    html, body{
+        line-height: 1.7rem;
+        font-size: 1rem;
+    }
+    
+    h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    
+    .primary img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .primary h2 { 
+        font-size: 45px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .primary h3 {
+        margin: 50px 0px 0px 0px;
+        font-size: 32px;
+    }
+    
+    .side h3 {
+        font-size: 32px;
+    }
+    
+    .side p {
+        font-size: 14px;
+    }
+    
+    .mainnav ul { 
+        display: table;
+        table-layout: fixed;
+        width: 100%
+    }
+    
+    .mainnav ul li { 
+        display: table-cell;
+        width: 25%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .primary { 
+        width: 63%;
+        float: left;  
+    }
+
+    .side { 
+        width: 37%;
+        float: right;
+    }
+}
+
+/*//--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 60rem) {
+    
+    h1 {
+        font-size: 70px; 
+        line-height: 75px; 
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    
+    .wrapper {
+        margin: 0px auto;
+        max-width: 1600px;
+    }
+    
+    .mainnav li {
+        font-size: 1.8rem;
+        
+     }
+    .mainnav ul {
+       
+        width: 22%;
+        height: 1000px;
+        float: left;
+        text-align: center;
+        background-image: url("http://lorempixel.com/800/1600/cats/");
+        background-size: 100% 100%;
+
+    }
+    
+    .primary{
+        float: left;
+        box-sizing: border-box;
+        -webkit-column-count: 2;
+        -moz-column-count:2;
+        column-count: 2;
+        width: 50%;
+        -webkit-column-gap:30px;
+        margin: 0px 0px 0px 15px;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .primary p {
+        font-size: 1.2rem;
+        font-family: ;
+    }
+    .side{
+        width: 25%;
+        float: right;
+        border-left: 1px dashed;
+        margin: 0px 10px 0px 0px;
+        margin-right: 0px;
+        padding-left: 27px;
+    }    
+    .side p {
+        font-size: 1.1rem;
+        font-family: ;
+    }
+
+    
+    .footer {
+    max-width: 1600px;
+    }
+    
+}
+/*//======================================================================================//*/
+html {
+  font-size: 1rem;
+}
+
+body {
+  line-height: 1.8rem; 
+  background-color: #FCF7FF;
+}
+
+h1 { 
+    text-shadow: 2px 2px #DEAAFF;
+    font-size: 40px;
+    margin: 5px 0px 5px;
+    padding: 5px 0px 0px 5px;
+}
+
+h2 { 
+    font-size: 22px;
+    margin: 10px 0px 10px;
+   
+}
+
+h3 { 
+    font-size: 22px;
+    margin: 25px 0px 10px;
+    
+}
+
+img {
+    max-width: 100%;
+    padding: 0px 0px 16px 0px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+p { 
+    margin-bottom: 5.5px;
+    text-align:justify;
+    line-height: 30px;
+    font-family:arial;
+}
+
+.left {
+    float: left;
+    margin: 3px 16px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 3px 0px 0px 16px; 
+}
+
+.masthead {
+    background-image: url("http://lorempixel.com/800/600/cats/");
+    padding: 8rem;
+    background-size: 100%; 
+    text-align: center;
+}
+
+.mainnav ul li a {
+    white-space: nowrap;
+    display: block;
+    padding: 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: #000000;
+    color: #FFFFFF;
+    list-style-type: none;
+
+}
+
+.mainnav a:hover {
+    background: #6F557F;
+}
+
+.primary {
+    padding: 16px;
+    
+}
+
+.side{
+    padding: 16px;
+}
+
+li {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.footer {
+    clear: both;
+    padding: 16px;
+    background-color: #000000;
+    color: #DEAAFF;
+    font-size: 18px;
+}
